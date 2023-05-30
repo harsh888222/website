@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+ 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="Viewport" content="Width=device-width, initial-scale=1.0">
+<title>personal portfolio website</title>
+<link rel="stylesheet" href="style.css">
+
+<script src="https://kit.fontawesome.com/86e1117384.js" crossorigin="anonymous"></script>
+</head>
+ 
+<body>
+    
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo" >
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+            
+        </nav>
+        
+        <div class="header-text" onclick="openmenu()">
+
+            <p>A Software Development Agency</p>
+            <h2>"Elevate Your <span style="color: #ff004f"> Digital Presence </span>:<br> Where Ideas Take Shape."</h2>
+        </div>
+        
+    </div>
+</div>
+<!------------------------------------about------------------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/_Cream_3D_Hiring_Instagram_Post-removebg-preview.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Us</h1><br><br>
+                <h2>As true partners to our clients, we solve problems, not tickets. Our developers, strategists, and designers are autonomous, outspoken, collaborative, and love doing the work. We’ve kept our team small and our org flat on purpose: that’s how we stay nimble, transparent, and human-centric.</h2>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Industries</p>
+                        <p class="tab-links" onclick="opentab('experience')">company</p>
+                        <p class="tab-links" onclick="opentab('education')">Team</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <h3 style="color:#ff004f;">We have the software expertise. You have the industry knowledge. Together, we are unstoppable.</h3>
+                        <p>At The WeLink, we are experts in developing secure, scalable, integrated mobile and web-based software products. We apply our expertise and experience to projects across industries, and we love to learn about new sectors and tackle new challenges. We rely on our clients to provide the key industry intel we need to know—and we adapt our process accordingly so the products we develop are sure to stand out.</p><br>
+
+                            <p>As part of our software development process, every project begins with a comprehensive discovery workshop, which allows us to do a deep dive into your company, your industry, and your needs. Clients across industries appreciate our attention to detail, our technical prowess, and our ability to understand your industrys specific technical requirements.</p><br>
+                            
+                            <p>We are industry agnostic, but we ave proven that we are particularly suited to the challenges presented by the following sectors.</p><br>
+                     </div>
+
+                     <div class="tab-contents" id="experience">
+                        <h3 style="color: #ff004f;">"Rapid strides, boundless possibilities: Embracing the velocity of success, our company soars towards infinite horizons."</h3>
+                        <p><b>WeLink</b> is a tech company focused on <b>digital transformation.</b>
+                            Capitalizing on our experience in technology, strategy
+                            and data we help our clients transform how they operate and
+                            interact with the customers. Our tailored solutions make them
+                           <b> close the gap between vision and reality.</b></p><br>
+                            
+                            <p>Together with our clients, we have been transforming every industry
+                            including retail, travel, finance, healthcare and manufacturing. We
+                            remove complexity and add value, making the every-day
+                            experience intuitive, seamless and effective.</p><br>
+                            
+                            <p>Our talented and experienced team is perfectly positioned to support
+                            the global transformation of our clients, enabling them to predict and
+                            tackle the challenges of tomorrow, to drive their growth and deliver
+                            their future. Now.</p><br>
+                     </div>
+
+                     <div class="tab-contents" id="education">
+                        <h3 style="color: #ff004f;">WE BELIEVE IN OUR TEAM, AND YOU WILL TOO!</h3>
+                       <p>The most important part of any business is people. Our company employs only professionals in their field with a high level of expertise and a huge desire to improve their skills to make the best products every day.
+                        Our developers write solid code, and our designers do not just develop flows and mockups, but come up with a solution for a successful user experience and user-friendly interface.</p> <br>
+                        
+                        <p>Business developers and project managers are always in touch with customers, ready to resolve any issues as quickly as possible.</p><br>
+                        
+                       <p> We are not just another software development company, we are a family. We want to make top-notch products efficiently and build long-term relationships with our customers, as well as grow together with them.</p><br>
+                     </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------------services---------------------------->
+
+<div id="services">
+    <div class="container">
+        
+        <h1 class="sub-title">Our Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design & Development</h2><br>
+                <p>Beautifully designed and collaboratively concepted websites that deliver best-in-class experiences to your users.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h2> Software Development</h2><br>
+                <p>Web apps, mobile apps and interactive experiences we help you take from ideation to implementation.</p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-regular fa-globe"></i>
+                <h2>e-commerce Development</h2>
+                <p>We build high converting, fast-loading, headless eCommerce websites for enterprise brands, that accelerate growth.</p>
+                    <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------------------------------portfolio--------------------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Our Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/techmahadev.jpg" alt="" height="637px">
+                <div class="layer">
+                    <h1><b>Tech Mahadev</b></h1>
+                    
+                         <a href="https://techmahadev.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/tejashfoods.jpg" alt="">
+                <div class="layer">
+                    <h1><b>Tejash Foods</b></h1>
+                    
+                         <a href="https://tejashfoods.com/
+                         "><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/renewedgoods.jpg" alt="" height="637px">
+                <div class="layer">
+                    <h1><b>renewedgoods</b></h1>
+                    
+                         <a href="https://renewedgoods.in/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-----------------------------------contact-------------------------------->
+
+<div id="contact">
+    <div class="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fa-regular fa-envelope"></i> hs1457912@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>(i) 9389725132, (ii) 8171046020</p>
+                
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @Harsh. just a portfolio website</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+
+</html>
+
+
